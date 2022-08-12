@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <a href="index.html">Home</a>
+
+
+    <a href="resume.html">Resume</a>
+
+
+    <a href="projects.html">Projects</a>
+
+
+    <a href="contact.html">Contact</a>
+
+
+    <a href="social.html">Social</a>
+
+
+    <a href="admin.html">Admin</a>
+
+  </div>
+
+  <h1>Contact Me</h1>
+  <hr>
+  <p>
+    If you want to work with me or have any question, enter your information below.
+  </p>
+  <p>I will get back to you as soon as possible!</p>
+  <br>
+  <form class="contact">
+    <label>Your Name: </label>
+    <input type="text" name="MyName"> <br> <br>
+    <label>Your Email: </label>
+    <input type="email" name="MyEmail"> <br> <br>
+    <label>Phone Number: </label>
+    <input type="tel" name="MyTel"> <br> <br>
+    <label>Your Message: </label> <br>
+    <textarea name="MyMessages" rows="8" cols="80"></textarea>
+  </form>
+  <input type="submit" onclick="submitContactMsg()" class="message" value="Submit">
+
+  <script src="index.js">
+  </script>
+</body>
+
+</html>

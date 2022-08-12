@@ -1,0 +1,86 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container {
+  text-align: center;
+}
+
+.container a {
+  text-align: center;
+  padding: 17px 40px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.name {
+  text-align: center;
+}
+
+.prof {
+  text-align: justify;
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  border-color: grey;
+  border-width: 5px;
+}
+
+.info {
+  text-align: justify;
+}
+
+.resume {
+  text-align: left;
+}
+
+.project {
+  text-align: justify;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  background-color: lightgrey;
+}
+
+.contact {
+  text-align: left;
+}
+
+.social {
+  padding-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login {
+  display: block;
+  position: relative;
+  left: 157px;
+}
+
+.prof {
+  text-align: center;
+}
+
+body {
+  background-color: #E4F9F5;
+}

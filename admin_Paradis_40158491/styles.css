@@ -1,0 +1,18 @@
+.container {
+  text-align: center;
+}
+
+.container a {
+  text-align: center;
+  padding: 17px 40px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  background-color: lightgrey;
+}

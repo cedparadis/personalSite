@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <a href="index.html">Home</a>
+
+
+    <a href="resume.html">Resume</a>
+
+
+    <a href="projects.html">Projects</a>
+
+
+    <a href="contact.html">Contact</a>
+
+
+    <a href="social.html">Social</a>
+
+
+    <a href="admin.html">Admin</a>
+
+  </div>
+
+  <h1>My Resume</h1>
+  <hr>
+  <h2 class="resume">Education</h2>
+  <input type="file" class="fileEdu">
+  <input type="submit" onclick="readMessagesEducation()" class="message" value="Confirm">
+  <hr style="margin:0; width:100%;">
+  <dl class="education">
+    <dt><strong>Concordia University </strong></dt>
+    <dd>Bachelor of Computer Science <em style="margin:20px;">2021-2024</em></dd>
+    <dt><strong>Cegep L'Assomption</strong></dt>
+    <dd>D.E.C in Administrative Science <em style="margin:20px;">2017 - 2019</em></dd>
+  </dl>
+  <h2 class="resume">Technical skills</h2>
+  <hr style="margin:0; width:100%;">
+  <input type="file" class="fileTech">
+  <input type="submit" onclick="readMessagesTech()" class="message" value="Confirm">
+  <dl class="tech">
+    <dt><strong>Programming Language</strong></dt>
+    <dd>
+      <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+        <li>C++</li>
+        <li>C</li>
+        <li>Dart</li>
+      </ul>
+    </dd>
+    <dt><strong>Markup & Style Language </strong></dt>
+    <dd>
+
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+      </ul>
+    </dd>
+    <dt><strong>Framework</strong></dt>
+    <dd>
+      <ul>
+        <li>Flutter</li>
+        <li>.NET</li>
+      </ul>
+    </dd>
+    <dt><strong>Technologies</strong></dt>
+    <dd>
+      <ul>
+        <li>Github</li>
+        <li>Eclipse</li>
+        <li>Android Studio</li>
+        <li>Atom</li>
+        <li>Visual Studio</li>
+      </ul>
+    </dd>
+  </dl>
+
+  <h2 class="resume">Awards and Recognitions</h2>
+  <input type="file" class="fileAward">
+  <input type="submit" onclick="readMessagesAward()" class="message" value="Confirm">
+  <hr style="margin:0; width:100%;">
+  <ol type="i" class="award">
+    <li>Invitation to the Golden Key International Honours Society</li>
+    <li>Award for best overall grade in Secondary School</li>
+  </ol>
+
+  <h2 class="resume">Work Experience</h2>
+  <input type="file" class="fileWork">
+  <input type="submit" onclick="readMessagesWork()" class="message" value="Confirm">
+  <ol class="work">
+    <li>
+      <dl>
+        <dt><strong>Member Representative </strong></dt>
+        <dd>World Gym Lachenaie, Terrebonne Quebec</dd>
+      </dl>
+    </li>
+
+    <li>
+      <dl>
+        <dt><strong>Service Helper</strong></dt>
+        <dd>Pierre-Legardeur Hospital</dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><strong>Hotel Reception</strong></dt>
+        <dd>Big Bear Hostel 熊大国際住宿, Hualien, Taiwan</dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><strong>Wrapper</strong></dt>
+        <dd>IGA Crevier, Terrebonne,QC</dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><strong>Order Picker</strong></dt>
+        <dd>Entrepot Metro, Montreal, QC</dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><strong>Client Service</strong></dt>
+        <dd>Chocolat Favoris, Repentigny, QC</dd>
+      </dl>
+    </li>
+  </ol>
+
+  <h2 class="resume">References</h2>
+  <input type="file" class="fileRef">
+  <input type="submit" onclick="readMessagesRef()" class="message" value="Confirm">
+  <hr style="margin:0; width:100%;">
+  <dl class="ref">
+    <dt><strong>Reference #1</strong></dt>
+    <dd>Ms.Melissa Boivin</dd>
+    <dd>Gym Manager</dd>
+    <dd>325 Mnt des Pionniers</dd>
+    <dd>Terrebonne, QC J6V 1H4</dd>
+    <dd>(450)914-0400</dd>
+
+    <dt><strong>Reference #2</strong></dt>
+    <dd>Ms.Malorie Dugas</dd>
+    <dd>Security Chief</dd>
+    <dd> 911 Mnt des Pionniers</dd>
+    <dd>Terrebonne, QC J6V 2H2</dd>
+    <dd>(450)654-7525</dd>
+
+    <dt><strong>Reference #3</strong></dt>
+    <dd>Ms.Annie Croteau</dd>
+    <dd>General Manager</dd>
+    <dd> 381 Rue Notre-Dame</dd>
+    <dd>Repentigny, QC J6A 2S9</dd>
+    <dd>(450) 932-1235</dd>
+
+  </dl>
+
+  <form>
+    <input type="button" value="Download Full CV">
+  </form>
+
+  <script src="index.js">
+  </script>
+</body>
+
+</html>
